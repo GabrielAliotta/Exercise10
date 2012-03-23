@@ -15,6 +15,7 @@
 @property (nonatomic, retain) IBOutlet UIPickerView *myPickerView;
 @property (nonatomic, retain) IBOutlet UITextField *myTextField;
 @property (nonatomic, retain) IBOutlet UIButton *myButton;
+@property (nonatomic, retain) NSMutableArray * fileNames;
 - (IBAction)saveTextFile:(id)sender;
 
 @end

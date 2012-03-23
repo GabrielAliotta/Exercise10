@@ -13,7 +13,8 @@
 @synthesize myPickerView;
 @synthesize myTextField;
 @synthesize myButton;
-NSMutableArray * fileNames;
+@synthesize fileNames;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
